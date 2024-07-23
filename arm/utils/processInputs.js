@@ -1,3 +1,6 @@
+import { createReadStream } from 'fs';
+import { createInterface } from 'readline';
+
 const assignToInputParam = (inputObject, paramName, paramValue) =>{
     if(Object.keys(inputObject).indexOf(paramName) < 0){
         throw Error(`Input parameter '${paramName}' is invalid.  Here's the input properties: ${JSON.stringify(inputObject)}`);
@@ -38,4 +41,24 @@ export const processArgs = (inputs) =>{
     console.log(`Parsed inputs: \n${JSON.stringify(inputs, null, '  ')}`);
 
     return inputs;
+}
+
+export const getExcludedResourceIds = async (filePath) =>{
+    const resourceIds = [];
+    try{
+        const fileStream = createReadStream(filePath);
+
+        const rl = createInterface({
+            input: fileStream,
+            crlfDelay: Infinity
+        });
+    
+        for await (const line of rl) {
+            resourceIds.push(line);
+        }    
+    }catch(e){
+        console.log(`\n---- WARNING!!!: No excluded file was found under '${filePath}'.  If you wish to exclude some resourceIds, add them to this file ----`);
+    }
+
+    return resourceIds;
 }

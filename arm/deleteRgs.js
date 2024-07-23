@@ -1,15 +1,14 @@
 import { deleteRg, fetchRgs } from './utils/armClient.js';
 import { stringExistsInArray } from './utils/arrays.js';
-import { processArgs } from './utils/processInputs.js';
+import { getExcludedResourceIds, processArgs } from './utils/processInputs.js';
 import { input } from '@inquirer/prompts';
+import { fileURLToPath } from 'url';
+import { dirname } from 'path';
 
-const excludedRgs = [
-    '/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/cleanupservice',
-    '/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/cloud-shell-storage-westus',
-    '/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/networkanalyzer'
-]
+const __filename = fileURLToPath(import.meta.url);
+const curDirPath = dirname(__filename);
 
-const deleteRgs = async (subscriptionId, write) => {
+const deleteRgs = async (subscriptionId, write, excludedRgs) => {
 
     if (write) {
         const confirmed = await input({message: `WARNING: You've chosen to perform destructive actions.  Continue? (Y/N)`});
@@ -20,6 +19,7 @@ const deleteRgs = async (subscriptionId, write) => {
         console.log(`\nRunning in READONLY mode\n`);
     }
 
+    console.log('These are the resourceIds that will be deleted:');
     const response = await fetchRgs(subscriptionId);
 
     if (response.ok) {
@@ -46,4 +46,5 @@ let inputs = {
 }
 
 inputs = processArgs(inputs);
-deleteRgs(inputs.subscriptionId, inputs.write);
+const excludedIds = await getExcludedResourceIds(`${curDirPath}/.donotdelete`);
+deleteRgs(inputs.subscriptionId, inputs.write, excludedIds);
