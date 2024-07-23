@@ -1,0 +1,2406 @@
+[
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehdevopstest-rg",
+    "location": "southcentralus",
+    "managedBy": null,
+    "name": "ehdevopstest-rg",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehtodocsharp10",
+    "location": "southcentralus",
+    "managedBy": null,
+    "name": "ehtodocsharp10",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": {
+      "azd-env-name": "Microsoft-StarShot-Create-8db291dc-b5e2",
+      "hidden-link: appSpaces-deploymentId": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/providers/Microsoft.Resources/deployments/Microsoft-StarShot-Create-8db291dc-b5e2",
+      "hidden-link: appSpaces-github-repo": "ehamai:ehtodo-csharp-10",
+      "hidden-link: rgKind": "appSpace,azd"
+    },
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehaks01",
+    "location": "eastus2euap",
+    "managedBy": null,
+    "name": "ehaks01",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/MC_ehaks01_eaks01_eastus2euap",
+    "location": "eastus2euap",
+    "managedBy": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourcegroups/ehaks01/providers/Microsoft.ContainerService/managedClusters/eaks01",
+    "name": "MC_ehaks01_eaks01_eastus2euap",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": {},
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/swacosmostemplate6567ac45b273",
+    "location": "eastus2",
+    "managedBy": null,
+    "name": "swacosmostemplate6567ac45b273",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": {
+      "hidden-link: github-repo": "https://github.com/ehamai/swa-cosmos-template-d3cfec0b-be85",
+      "hidden-link: starshot": "project"
+    },
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehnextjsvercel",
+    "location": "eastus2",
+    "managedBy": null,
+    "name": "ehnextjsvercel",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": {
+      "hidden-link: github-repo": "https://github.com/ehamai/nextjs-vercel",
+      "hidden-link: starshot": "project"
+    },
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehchange00",
+    "location": "centralus",
+    "managedBy": null,
+    "name": "ehchange00",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehaitest00",
+    "location": "centralus",
+    "managedBy": null,
+    "name": "ehaitest00",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehaitest01",
+    "location": "centralus",
+    "managedBy": null,
+    "name": "ehaitest01",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehaitest02-linux",
+    "location": "centralus",
+    "managedBy": null,
+    "name": "ehaitest02-linux",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehlinux00",
+    "location": "centralus",
+    "managedBy": null,
+    "name": "ehlinux00",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehunicode",
+    "location": "centralus",
+    "managedBy": null,
+    "name": "ehunicode",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehfuncasp00",
+    "location": "centralus",
+    "managedBy": null,
+    "name": "ehfuncasp00",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/sdfdsfdsfdsfdsdsfsd",
+    "location": "centralus",
+    "managedBy": null,
+    "name": "sdfdsfdsfdsfdsdsfsd",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehtemplates00",
+    "location": "centralus",
+    "managedBy": null,
+    "name": "ehtemplates00",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehlocationtest00",
+    "location": "centralus",
+    "managedBy": null,
+    "name": "ehlocationtest00",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehdotnetfunc00",
+    "location": "centralus",
+    "managedBy": null,
+    "name": "ehdotnetfunc00",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehfuncai00",
+    "location": "centralus",
+    "managedBy": null,
+    "name": "ehfuncai00",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehdockerhub",
+    "location": "centralus",
+    "managedBy": null,
+    "name": "ehdockerhub",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehpowershell00",
+    "location": "centralus",
+    "managedBy": null,
+    "name": "ehpowershell00",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/DefaultResourceGroup-CUS",
+    "location": "centralus",
+    "managedBy": null,
+    "name": "DefaultResourceGroup-CUS",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehfuncapm21",
+    "location": "centralus",
+    "managedBy": null,
+    "name": "ehfuncapm21",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/eheasyauth",
+    "location": "centraluseuap",
+    "managedBy": null,
+    "name": "eheasyauth",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehaitest02",
+    "location": "centralus",
+    "managedBy": null,
+    "name": "ehaitest02",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehaitest03",
+    "location": "centralus",
+    "managedBy": null,
+    "name": "ehaitest03",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehworkspacetest",
+    "location": "centralus",
+    "managedBy": null,
+    "name": "ehworkspacetest",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehpostgresql00",
+    "location": "centralus",
+    "managedBy": null,
+    "name": "ehpostgresql00",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehalwayson",
+    "location": "centralus",
+    "managedBy": null,
+    "name": "ehalwayson",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehjavafunc",
+    "location": "centralus",
+    "managedBy": null,
+    "name": "ehjavafunc",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehlinuxcontainer21",
+    "location": "centralus",
+    "managedBy": null,
+    "name": "ehlinuxcontainer21",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehghawin00",
+    "location": "centralus",
+    "managedBy": null,
+    "name": "ehghawin00",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehghalinux00",
+    "location": "centralus",
+    "managedBy": null,
+    "name": "ehghalinux00",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehghalinuxnode00",
+    "location": "centralus",
+    "managedBy": null,
+    "name": "ehghalinuxnode00",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehnodefunc00",
+    "location": "centralus",
+    "managedBy": null,
+    "name": "ehnodefunc00",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehlinuxcontainer00",
+    "location": "centralus",
+    "managedBy": null,
+    "name": "ehlinuxcontainer00",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehfunc-linux-consumption",
+    "location": "centralus",
+    "managedBy": null,
+    "name": "ehfunc-linux-consumption",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehlogicapps",
+    "location": "centralus",
+    "managedBy": null,
+    "name": "ehlogicapps",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehlogicapps2",
+    "location": "centralus",
+    "managedBy": null,
+    "name": "ehlogicapps2",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehlogicapp4",
+    "location": "centralus",
+    "managedBy": null,
+    "name": "ehlogicapp4",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehlogicapp5",
+    "location": "centralus",
+    "managedBy": null,
+    "name": "ehlogicapp5",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehpsfunc00",
+    "location": "centralus",
+    "managedBy": null,
+    "name": "ehpsfunc00",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehwordpress",
+    "location": "centralus",
+    "managedBy": null,
+    "name": "ehwordpress",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehfunclinux",
+    "location": "centralus",
+    "managedBy": null,
+    "name": "ehfunclinux",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehbackups",
+    "location": "centralus",
+    "managedBy": null,
+    "name": "ehbackups",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehdotnet6",
+    "location": "centralus",
+    "managedBy": null,
+    "name": "ehdotnet6",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehfunc-dotnet6-v4",
+    "location": "centralus",
+    "managedBy": null,
+    "name": "ehfunc-dotnet6-v4",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehscaletest00",
+    "location": "centralus",
+    "managedBy": null,
+    "name": "ehscaletest00",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehaiextension00",
+    "location": "centralus",
+    "managedBy": null,
+    "name": "ehaiextension00",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehwordpress02_group",
+    "location": "centralus",
+    "managedBy": null,
+    "name": "ehwordpress02_group",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/sdfsdfdsfsdfsdfsd_group",
+    "location": "centralus",
+    "managedBy": null,
+    "name": "sdfsdfdsfsdfsdfsd_group",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehFuncNoAi",
+    "location": "centralus",
+    "managedBy": null,
+    "name": "ehFuncNoAi",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehfunccors_group",
+    "location": "centralus",
+    "managedBy": null,
+    "name": "ehfunccors_group",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehasev3",
+    "location": "eastus",
+    "managedBy": null,
+    "name": "ehasev3",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/DefaultResourceGroup-EUS",
+    "location": "eastus",
+    "managedBy": null,
+    "name": "DefaultResourceGroup-EUS",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehvm01_group",
+    "location": "eastus",
+    "managedBy": null,
+    "name": "ehvm01_group",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehappconfig",
+    "location": "eastus",
+    "managedBy": null,
+    "name": "ehappconfig",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/eh-arc02-infra",
+    "location": "eastus",
+    "managedBy": null,
+    "name": "eh-arc02-infra",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/MC_eh-arc02-infra_eh-arc02-infra-cluster_eastus",
+    "location": "eastus",
+    "managedBy": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourcegroups/eh-arc02-infra/providers/Microsoft.ContainerService/managedClusters/eh-arc02-infra-cluster",
+    "name": "MC_eh-arc02-infra_eh-arc02-infra-cluster_eastus",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": {},
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/eh-arc02",
+    "location": "eastus",
+    "managedBy": null,
+    "name": "eh-arc02",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehfunc00",
+    "location": "eastus",
+    "managedBy": null,
+    "name": "ehfunc00",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehpush00",
+    "location": "eastus",
+    "managedBy": null,
+    "name": "ehpush00",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehca01",
+    "location": "eastus",
+    "managedBy": null,
+    "name": "ehca01",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehca03",
+    "location": "eastus",
+    "managedBy": null,
+    "name": "ehca03",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/sdfsdfsdfsdfsdf_group",
+    "location": "eastus",
+    "managedBy": null,
+    "name": "sdfsdfsdfsdfsdf_group",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/nodehello",
+    "location": "eastus",
+    "managedBy": null,
+    "name": "nodehello",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": {
+      "hidden-link: github-repo": "https://github.com/ehamai/node-hello",
+      "hidden-link: starshot": "project"
+    },
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehdjangopostgres",
+    "location": "eastus",
+    "managedBy": null,
+    "name": "ehdjangopostgres",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": {
+      "hidden-link: github-repo": "https://github.com/ehamai/Django + Postgres",
+      "hidden-link: starshot": "project"
+    },
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehkeyvault1",
+    "location": "eastus",
+    "managedBy": null,
+    "name": "ehkeyvault1",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/eh-oidc",
+    "location": "eastus",
+    "managedBy": null,
+    "name": "eh-oidc",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": {},
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehdevcenter",
+    "location": "eastus",
+    "managedBy": null,
+    "name": "ehdevcenter",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/DefaultResourceGroup-NEU",
+    "location": "northeurope",
+    "managedBy": null,
+    "name": "DefaultResourceGroup-NEU",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehxenon00",
+    "location": "westus",
+    "managedBy": null,
+    "name": "ehxenon00",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/NetworkWatcherRG",
+    "location": "westus",
+    "managedBy": null,
+    "name": "NetworkWatcherRG",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehstaticapp01",
+    "location": "westus",
+    "managedBy": null,
+    "name": "ehstaticapp01",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehstaticapp02",
+    "location": "westus",
+    "managedBy": null,
+    "name": "ehstaticapp02",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehfuncpv2",
+    "location": "westus",
+    "managedBy": null,
+    "name": "ehfuncpv2",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehsc101",
+    "location": "westus",
+    "managedBy": null,
+    "name": "ehsc101",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehapiapp01",
+    "location": "westus",
+    "managedBy": null,
+    "name": "ehapiapp01",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehapiapp02",
+    "location": "westus",
+    "managedBy": null,
+    "name": "ehapiapp02",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehapiapp03",
+    "location": "westus",
+    "managedBy": null,
+    "name": "ehapiapp03",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehnetframework00",
+    "location": "westus",
+    "managedBy": null,
+    "name": "ehnetframework00",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehlinux01",
+    "location": "westus",
+    "managedBy": null,
+    "name": "ehlinux01",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehdotnet5win",
+    "location": "westus",
+    "managedBy": null,
+    "name": "ehdotnet5win",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/DefaultResourceGroup-WUS",
+    "location": "westus",
+    "managedBy": null,
+    "name": "DefaultResourceGroup-WUS",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehlinuxasp",
+    "location": "westus",
+    "managedBy": null,
+    "name": "ehlinuxasp",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehlogicapp3",
+    "location": "westus",
+    "managedBy": null,
+    "name": "ehlogicapp3",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/casesensitivity",
+    "location": "westus",
+    "managedBy": null,
+    "name": "casesensitivity",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehwp00",
+    "location": "westus",
+    "managedBy": null,
+    "name": "ehwp00",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehclone",
+    "location": "westus",
+    "managedBy": null,
+    "name": "ehclone",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehkoreasouth_group",
+    "location": "westus",
+    "managedBy": null,
+    "name": "ehkoreasouth_group",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehca04",
+    "location": "westus",
+    "managedBy": null,
+    "name": "ehca04",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehtemplate",
+    "location": "westus",
+    "managedBy": null,
+    "name": "ehtemplate",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehwebsql_group",
+    "location": "westus",
+    "managedBy": null,
+    "name": "ehwebsql_group",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehwordpress00",
+    "location": "westus",
+    "managedBy": null,
+    "name": "ehwordpress00",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehsc10",
+    "location": "westus",
+    "managedBy": null,
+    "name": "ehsc10",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/eh-adx",
+    "location": "westus",
+    "managedBy": null,
+    "name": "eh-adx",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ME_ehtestvnet_todo-demo_westus",
+    "location": "westus",
+    "managedBy": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourcegroups/todo-demo/providers/microsoft.app/managedenvironments/ehtestvnet",
+    "name": "ME_ehtestvnet_todo-demo_westus",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": {
+      "aca-managed-env-id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/todo-demo/providers/Microsoft.App/managedEnvironments/ehtestvnet",
+      "ms.inv.v0.backedby.origin.sourcearmid.0": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/todo-demo/providers/Microsoft.App/managedEnvironments/ehtestvnet",
+      "ms.inv.v0.backedby.origin.tenantid": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+      "ms.inv.v0.security.owner": "ApplicationPatching"
+    },
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/easyauth",
+    "location": "westus",
+    "managedBy": null,
+    "name": "easyauth",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/slotstesting",
+    "location": "westus",
+    "managedBy": null,
+    "name": "slotstesting",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/eh-functionsOnACA",
+    "location": "westus",
+    "managedBy": null,
+    "name": "eh-functionsOnACA",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/eh-functionapponaca2_group",
+    "location": "westus",
+    "managedBy": null,
+    "name": "eh-functionapponaca2_group",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/eh-functiononaca-environment_FunctionApps_0d1a8d77-754f-41bf-b8ce-838b80f2d133",
+    "location": "westus",
+    "managedBy": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/eh-functiononaca-environment_FunctionApps_0d1a8d77-754f-41bf-b8ce-838b80f2d133/providers/Microsoft.Web/sites",
+    "name": "eh-functiononaca-environment_FunctionApps_0d1a8d77-754f-41bf-b8ce-838b80f2d133",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": {
+      "hidden-link: /app-insights-resource-id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/eh-functionapponaca2_group/providers/Microsoft.Insights/components/eh-functionapponaca2"
+    },
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehsitecore00",
+    "location": "westus",
+    "managedBy": null,
+    "name": "ehsitecore00",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehfa-aca00_group",
+    "location": "westus",
+    "managedBy": null,
+    "name": "ehfa-aca00_group",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehfa-aca_FunctionApps_4d7f01f0-1f4b-4257-83db-590108a8bf23",
+    "location": "westus",
+    "managedBy": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehfa-aca_FunctionApps_4d7f01f0-1f4b-4257-83db-590108a8bf23/providers/Microsoft.Web/sites",
+    "name": "ehfa-aca_FunctionApps_4d7f01f0-1f4b-4257-83db-590108a8bf23",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": {
+      "hidden-link: /app-insights-resource-id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehfa-aca00_group/providers/Microsoft.Insights/components/ehfa-aca00"
+    },
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehsc11",
+    "location": "westus",
+    "managedBy": null,
+    "name": "ehsc11",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehai-rg",
+    "location": "westus",
+    "managedBy": null,
+    "name": "ehai-rg",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehstaticapp06",
+    "location": "westus2",
+    "managedBy": null,
+    "name": "ehstaticapp06",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehacr",
+    "location": "westus2",
+    "managedBy": null,
+    "name": "ehacr",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehcodespace00",
+    "location": "westus2",
+    "managedBy": null,
+    "name": "ehcodespace00",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehlinux02-westcentralus",
+    "location": "westcentralus",
+    "managedBy": null,
+    "name": "ehlinux02-westcentralus",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehswa-standard",
+    "location": "westus2",
+    "managedBy": null,
+    "name": "ehswa-standard",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehwordpresslinux",
+    "location": "westus2",
+    "managedBy": null,
+    "name": "ehwordpresslinux",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/sdfdsfdsfdsfdsfsd",
+    "location": "westus2",
+    "managedBy": null,
+    "name": "sdfdsfdsfdsfdsfsd",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/DefaultResourceGroup-WUS2",
+    "location": "westus2",
+    "managedBy": null,
+    "name": "DefaultResourceGroup-WUS2",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehairg",
+    "location": "westus2",
+    "managedBy": null,
+    "name": "ehairg",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/eharmtest",
+    "location": "westus2",
+    "managedBy": null,
+    "name": "eharmtest",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehspringboard20",
+    "location": "westus2",
+    "managedBy": null,
+    "name": "ehspringboard20",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": {
+      "azd-env-name": "Microsoft-StarShot-Create-122b34ed-9c2b",
+      "hidden-link: appSpaces-deploymentId": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/providers/Microsoft.Resources/deployments/Microsoft-StarShot-Create-122b34ed-9c2b",
+      "hidden-link: appSpaces-github-repo": "ehamai:ehspringboard20",
+      "hidden-link: rgKind": "appSpace,azd"
+    },
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/DefaultResourceGroup-SEA",
+    "location": "southeastasia",
+    "managedBy": null,
+    "name": "DefaultResourceGroup-SEA",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehappinsight-linux_group",
+    "location": "eastus",
+    "managedBy": null,
+    "name": "ehappinsight-linux_group",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehpv3testing_group",
+    "location": "eastus",
+    "managedBy": null,
+    "name": "ehpv3testing_group",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/DefaultResourceGroup-null",
+    "location": "southindia",
+    "managedBy": null,
+    "name": "DefaultResourceGroup-null",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/DefaultResourceGroup-EAU",
+    "location": "australiaeast",
+    "managedBy": null,
+    "name": "DefaultResourceGroup-EAU",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/msdocspythonflaskwebappquickstart8818",
+    "location": "southafricanorth",
+    "managedBy": null,
+    "name": "msdocspythonflaskwebappquickstart8818",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": {
+      "hidden-link: appSpaces-deploymentId": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourcegroups/msdocspythonflaskwebappquickstart8818/providers/Microsoft.Resources/deployments/Microsoft-StarShot-Create-5564e7dd-8612",
+      "hidden-link: appSpaces-github-repo": "cadickson:msdocs-python-flask-webapp-quickstart",
+      "hidden-link: rgKind": "appSpace"
+    },
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/DefaultResourceGroup-CHN",
+    "location": "switzerlandnorth",
+    "managedBy": null,
+    "name": "DefaultResourceGroup-CHN",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehdbtesting_group",
+    "location": "eastus",
+    "managedBy": null,
+    "name": "ehdbtesting_group",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/AzSecPackAutoConfigRG",
+    "location": "eastus",
+    "managedBy": null,
+    "name": "AzSecPackAutoConfigRG",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/sidecar",
+    "location": "eastus",
+    "managedBy": null,
+    "name": "sidecar",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ME_managedEnvironment-ehfunctionsOnACA-927c_eh-functionsOnACA_eastus",
+    "location": "eastus",
+    "managedBy": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourcegroups/eh-functionsonaca/providers/microsoft.app/managedenvironments/managedenvironment-ehfunctionsonaca-927c",
+    "name": "ME_managedEnvironment-ehfunctionsOnACA-927c_eh-functionsOnACA_eastus",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": {
+      "aca-managed-env-id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/eh-functionsOnACA/providers/Microsoft.App/managedEnvironments/managedEnvironment-ehfunctionsOnACA-927c"
+    },
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/eh-functionapponaca-3_group",
+    "location": "eastus",
+    "managedBy": null,
+    "name": "eh-functionapponaca-3_group",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehstacktest_group",
+    "location": "eastus",
+    "managedBy": null,
+    "name": "ehstacktest_group",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehflex00_group",
+    "location": "eastus",
+    "managedBy": null,
+    "name": "ehflex00_group",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/myappwithdtabase_group",
+    "location": "eastus",
+    "managedBy": null,
+    "name": "myappwithdtabase_group",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehdnl",
+    "location": "eastus",
+    "managedBy": null,
+    "name": "ehdnl",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehnetworking00_group",
+    "location": "centralus",
+    "managedBy": null,
+    "name": "ehnetworking00_group",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehlogicapp00",
+    "location": "centralus",
+    "managedBy": null,
+    "name": "ehlogicapp00",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehstaticapp_group",
+    "location": "centralus",
+    "managedBy": null,
+    "name": "ehstaticapp_group",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehstaticapp00_group",
+    "location": "centralus",
+    "managedBy": null,
+    "name": "ehstaticapp00_group",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehreactdemo",
+    "location": "eastus2",
+    "managedBy": null,
+    "name": "ehreactdemo",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": {
+      "hidden-link: github-repo": "https://github.com/ehamai/Django + Postgres",
+      "hidden-link: starshot": "project",
+      "hidden-link: starshot-cosmosdb-b5ea": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehcosmos00/providers/Microsoft.DocumentDB/databaseAccounts/ehcosmos03",
+      "hidden-link: starshot-functionapps-ad1f": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehaitest03/providers/Microsoft.Web/sites/ehaitest03"
+    },
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehreactdemo2",
+    "location": "eastus2",
+    "managedBy": null,
+    "name": "ehreactdemo2",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": {},
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehfunkytest00",
+    "location": "eastus2",
+    "managedBy": null,
+    "name": "ehfunkytest00",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": {
+      "hidden-link: starshot": "project"
+    },
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/rg-ehamai-todo-csharp-sql",
+    "location": "eastus2",
+    "managedBy": null,
+    "name": "rg-ehamai-todo-csharp-sql",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": {
+      "azd-env-name": "ehamai-todo-csharp-sql"
+    },
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehfunctest05_group",
+    "location": "centralus",
+    "managedBy": null,
+    "name": "ehfunctest05_group",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehfunctestfailure_group",
+    "location": "centralus",
+    "managedBy": null,
+    "name": "ehfunctestfailure_group",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehhelloworldmvcappsettingdemo",
+    "location": "centralus",
+    "managedBy": null,
+    "name": "ehhelloworldmvcappsettingdemo",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": {
+      "hidden-link: github-repo": "https://github.com/ehamai/HelloWorldMVCAppSettingDemo",
+      "hidden-link: starshot": "project"
+    },
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehaspfunc_group",
+    "location": "centralus",
+    "managedBy": null,
+    "name": "ehaspfunc_group",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/kristinRG",
+    "location": "centralus",
+    "managedBy": null,
+    "name": "kristinRG",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/todo-demo",
+    "location": "westus2",
+    "managedBy": null,
+    "name": "todo-demo",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/eh-oidc_group",
+    "location": "westus2",
+    "managedBy": null,
+    "name": "eh-oidc_group",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/eh-aitest",
+    "location": "westus2",
+    "managedBy": null,
+    "name": "eh-aitest",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/DefaultResourceGroup-USW3",
+    "location": "westus3",
+    "managedBy": null,
+    "name": "DefaultResourceGroup-USW3",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/springboardtesting",
+    "location": "westus2",
+    "managedBy": null,
+    "name": "springboardtesting",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/networkanalyzer",
+    "location": "westus2",
+    "managedBy": null,
+    "name": "networkanalyzer",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/todob6b0",
+    "location": "westus2",
+    "managedBy": null,
+    "name": "todob6b0",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": {
+      "hidden-link: appSpaces-deploymentId": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourcegroups/todob6b0/providers/Microsoft.Resources/deployments/Microsoft-StarShot-Create-dff52be1-99e7",
+      "hidden-link: appSpaces-github-repo": "ehamai:todo",
+      "hidden-link: friendly-name": "My Space 9f24",
+      "hidden-link: rgKind": "appSpace"
+    },
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/zrezaidev98ff",
+    "location": "westus2",
+    "managedBy": null,
+    "name": "zrezaidev98ff",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": {
+      "hidden-link: appSpaces-deploymentId": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourcegroups/zrezaidev98ff/providers/Microsoft.Resources/deployments/Microsoft-StarShot-Create-55d65ce9-ae33",
+      "hidden-link: appSpaces-github-repo": "ehamai:zrezai-dev",
+      "hidden-link: friendly-name": "zrezai-dev",
+      "hidden-link: rgKind": "appSpace"
+    },
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehfoobar_group",
+    "location": "centralus",
+    "managedBy": null,
+    "name": "ehfoobar_group",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/DefaultResourceGroup-SE",
+    "location": "koreacentral",
+    "managedBy": null,
+    "name": "DefaultResourceGroup-SE",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehfunkyapi",
+    "location": "centralus",
+    "managedBy": null,
+    "name": "ehfunkyapi",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehswatest01",
+    "location": "eastus2",
+    "managedBy": null,
+    "name": "ehswatest01",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": {
+      "hidden-link: starshot": "project"
+    },
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/sdfdsfdsfsdfsd_group",
+    "location": "centralus",
+    "managedBy": null,
+    "name": "sdfdsfdsfsdfsd_group",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/VstsRG-devopstest-dcc1",
+    "location": "centralus",
+    "managedBy": null,
+    "name": "VstsRG-devopstest-dcc1",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehtestrg",
+    "location": "centralus",
+    "managedBy": null,
+    "name": "ehtestrg",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/sdfsdfdsfds_group",
+    "location": "centralus",
+    "managedBy": null,
+    "name": "sdfsdfdsfds_group",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/DefaultResourceGroup-EA",
+    "location": "eastasia",
+    "managedBy": null,
+    "name": "DefaultResourceGroup-EA",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/DefaultResourceGroup-WEU",
+    "location": "westeurope",
+    "managedBy": null,
+    "name": "DefaultResourceGroup-WEU",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehaca-vnet",
+    "location": "westus2",
+    "managedBy": null,
+    "name": "ehaca-vnet",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ME_ehaca-vnet_ehaca-vnet_westus2",
+    "location": "westus2",
+    "managedBy": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourcegroups/ehaca-vnet/providers/microsoft.app/managedenvironments/ehaca-vnet",
+    "name": "ME_ehaca-vnet_ehaca-vnet_westus2",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": {
+      "aca-managed-env-id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehaca-vnet/providers/Microsoft.App/managedEnvironments/ehaca-vnet",
+      "ms.inv.v0.backedby.origin.sourcearmid.0": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehaca-vnet/providers/Microsoft.App/managedEnvironments/ehaca-vnet",
+      "ms.inv.v0.backedby.origin.tenantid": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+      "ms.inv.v0.security.owner": "ApplicationPatching"
+    },
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/todo9679",
+    "location": "westus2",
+    "managedBy": null,
+    "name": "todo9679",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": {
+      "hidden-link: appSpaces-deploymentId": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourcegroups/todo9679/providers/Microsoft.Resources/deployments/Microsoft-StarShot-Create-73272491-9a8d",
+      "hidden-link: appSpaces-github-repo": "ehamai:todo",
+      "hidden-link: friendly-name": "ehtodo-5b",
+      "hidden-link: rgKind": "appSpace"
+    },
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/MC_mangosea-c65eba48-rg_mangosea-c65eba48_westus2",
+    "location": "westus2",
+    "managedBy": "/subscriptions/ada5944f-eceb-4571-aa6b-31504e25da9c/resourcegroups/mangosea-c65eba48-rg/providers/Microsoft.ContainerService/managedClusters/mangosea-c65eba48",
+    "name": "MC_mangosea-c65eba48-rg_mangosea-c65eba48_westus2",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": {
+      "aks-managed-cluster-name": "mangosea-c65eba48",
+      "aks-managed-cluster-rg": "mangosea-c65eba48-rg",
+      "managed environment name": "managedenvironment-ehtodo5b-8a23",
+      "managed environment resource id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/todo9679/providers/Microsoft.App/managedEnvironments/managedenvironment-ehtodo5b-8a23"
+    },
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ME_ehtodo5c_todo9679_westus2",
+    "location": "westus2",
+    "managedBy": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourcegroups/todo9679/providers/microsoft.app/managedenvironments/ehtodo5c",
+    "name": "ME_ehtodo5c_todo9679_westus2",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": {
+      "aca-managed-env-id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/todo9679/providers/Microsoft.App/managedEnvironments/ehtodo5c",
+      "ms.inv.v0.backedby.origin.sourcearmid.0": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/todo9679/providers/Microsoft.App/managedEnvironments/ehtodo5c",
+      "ms.inv.v0.backedby.origin.tenantid": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+      "ms.inv.v0.security.owner": "ApplicationPatching"
+    },
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/eh-fa-aca2_group",
+    "location": "westus2",
+    "managedBy": null,
+    "name": "eh-fa-aca2_group",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehaca-vnet_FunctionApps_93adb422-5d92-4b98-baaa-9352439893f5",
+    "location": "westus2",
+    "managedBy": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehaca-vnet_FunctionApps_93adb422-5d92-4b98-baaa-9352439893f5/providers/Microsoft.Web/sites",
+    "name": "ehaca-vnet_FunctionApps_93adb422-5d92-4b98-baaa-9352439893f5",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": {
+      "hidden-link: /app-insights-resource-id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/eh-fa-aca2_group/providers/Microsoft.Insights/components/eh-fa-aca2"
+    },
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/llmstreamlitdemobasic8494",
+    "location": "westus2",
+    "managedBy": null,
+    "name": "llmstreamlitdemobasic8494",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": {
+      "hidden-link: appSpaces-deploymentId": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourcegroups/llmstreamlitdemobasic8494/providers/Microsoft.Resources/deployments/Microsoft-StarShot-Create-3e303e3d-8466",
+      "hidden-link: appSpaces-github-repo": "ehamai:LLMStreamlitDemoBasic",
+      "hidden-link: friendly-name": "ehLLMStreamIitDemoBasic00",
+      "hidden-link: rgKind": "appSpace"
+    },
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ME_managedenvironment-ehLLMStreamIitD-9f7b_llmstreamlitdemobasic8494_westus2",
+    "location": "westus2",
+    "managedBy": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourcegroups/llmstreamlitdemobasic8494/providers/microsoft.app/managedenvironments/managedenvironment-ehllmstreamiitd-9f7b",
+    "name": "ME_managedenvironment-ehLLMStreamIitD-9f7b_llmstreamlitdemobasic8494_westus2",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": {
+      "aca-managed-env-id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/llmstreamlitdemobasic8494/providers/Microsoft.App/managedEnvironments/managedenvironment-ehLLMStreamIitD-9f7b",
+      "ms.inv.v0.backedby.origin.sourcearmid.0": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/llmstreamlitdemobasic8494/providers/Microsoft.App/managedEnvironments/managedenvironment-ehLLMStreamIitD-9f7b",
+      "ms.inv.v0.backedby.origin.tenantid": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+      "ms.inv.v0.security.owner": "ApplicationPatching"
+    },
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/localragexample94f3",
+    "location": "westus2",
+    "managedBy": null,
+    "name": "localragexample94f3",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": {
+      "hidden-link: appSpaces-deploymentId": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourcegroups/localragexample94f3/providers/Microsoft.Resources/deployments/Microsoft-StarShot-Create-e8ea088c-9a1a",
+      "hidden-link: appSpaces-github-repo": "ehamai:local-rag-example",
+      "hidden-link: friendly-name": "ehlocal-rag-example",
+      "hidden-link: rgKind": "appSpace"
+    },
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ME_managedenvironment-ehlocalragexamp-a059_localragexample94f3_westus2",
+    "location": "westus2",
+    "managedBy": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourcegroups/localragexample94f3/providers/microsoft.app/managedenvironments/managedenvironment-ehlocalragexamp-a059",
+    "name": "ME_managedenvironment-ehlocalragexamp-a059_localragexample94f3_westus2",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": {
+      "aca-managed-env-id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/localragexample94f3/providers/Microsoft.App/managedEnvironments/managedenvironment-ehlocalragexamp-a059",
+      "ms.inv.v0.backedby.origin.sourcearmid.0": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/localragexample94f3/providers/Microsoft.App/managedEnvironments/managedenvironment-ehlocalragexamp-a059",
+      "ms.inv.v0.backedby.origin.tenantid": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+      "ms.inv.v0.security.owner": "ApplicationPatching"
+    },
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehaca-java00",
+    "location": "westus2",
+    "managedBy": null,
+    "name": "ehaca-java00",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/mslearnstaticwebappbd8d",
+    "location": "westus2",
+    "managedBy": null,
+    "name": "mslearnstaticwebappbd8d",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": {
+      "hidden-link: appSpaces-deploymentId": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourcegroups/mslearnstaticwebappbd8d/providers/Microsoft.Resources/deployments/Microsoft-StarShot-Create-de2b003c-ab01",
+      "hidden-link: appSpaces-github-repo": "Xiaowei-design:mslearn-staticwebapp",
+      "hidden-link: friendly-name": "XJ-BuildTest",
+      "hidden-link: rgKind": "appSpace"
+    },
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/DefaultResourceGroup-EUS2",
+    "location": "eastus2",
+    "managedBy": null,
+    "name": "DefaultResourceGroup-EUS2",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehexpress008901",
+    "location": "northcentralus",
+    "managedBy": null,
+    "name": "ehexpress008901",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": {
+      "hidden-link: appSpaces-deploymentId": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourcegroups/ehexpress008901/providers/Microsoft.Resources/deployments/Microsoft-StarShot-Create-7bf16f8c-8eff",
+      "hidden-link: appSpaces-github-repo": "ehamai:ehexpress00",
+      "hidden-link: friendly-name": "ehexpress00",
+      "hidden-link: rgKind": "appSpace"
+    },
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/DefaultResourceGroup-NCUS",
+    "location": "northcentralus",
+    "managedBy": null,
+    "name": "DefaultResourceGroup-NCUS",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/biceptest",
+    "location": "northcentralus",
+    "managedBy": null,
+    "name": "biceptest",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/appspacesragapp97198035",
+    "location": "westus2",
+    "managedBy": null,
+    "name": "appspacesragapp97198035",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": {},
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ME_container-app-environment-olgwldluccdyo_appspacesragapp97198035_westus2",
+    "location": "westus2",
+    "managedBy": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourcegroups/appspacesragapp97198035/providers/microsoft.app/managedenvironments/container-app-environment-olgwldluccdyo",
+    "name": "ME_container-app-environment-olgwldluccdyo_appspacesragapp97198035_westus2",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": {
+      "aca-managed-env-id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/appspacesragapp97198035/providers/Microsoft.App/managedEnvironments/container-app-environment-olgwldluccdyo",
+      "ms.inv.v0.backedby.origin.sourcearmid.0": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/appspacesragapp97198035/providers/Microsoft.App/managedEnvironments/container-app-environment-olgwldluccdyo",
+      "ms.inv.v0.backedby.origin.tenantid": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+      "ms.inv.v0.security.owner": "ApplicationPatching"
+    },
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/todotemplate11a3e9",
+    "location": "westus2",
+    "managedBy": null,
+    "name": "todotemplate11a3e9",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": {},
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ME_container-app-environment-dntjv65luyi5q_todotemplate11a3e9_westus2",
+    "location": "westus2",
+    "managedBy": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourcegroups/todotemplate11a3e9/providers/microsoft.app/managedenvironments/container-app-environment-dntjv65luyi5q",
+    "name": "ME_container-app-environment-dntjv65luyi5q_todotemplate11a3e9_westus2",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": {
+      "aca-managed-env-id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/todotemplate11a3e9/providers/Microsoft.App/managedEnvironments/container-app-environment-dntjv65luyi5q",
+      "ms.inv.v0.backedby.origin.sourcearmid.0": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/todotemplate11a3e9/providers/Microsoft.App/managedEnvironments/container-app-environment-dntjv65luyi5q",
+      "ms.inv.v0.backedby.origin.tenantid": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+      "ms.inv.v0.security.owner": "ApplicationPatching"
+    },
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/blazordemo_group",
+    "location": "westus2",
+    "managedBy": null,
+    "name": "blazordemo_group",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehrag0087a5",
+    "location": "westus2",
+    "managedBy": null,
+    "name": "ehrag0087a5",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": {},
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ME_container-app-environment-b4kt3ik4bh6cm_ehrag0087a5_westus2",
+    "location": "westus2",
+    "managedBy": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourcegroups/ehrag0087a5/providers/microsoft.app/managedenvironments/container-app-environment-b4kt3ik4bh6cm",
+    "name": "ME_container-app-environment-b4kt3ik4bh6cm_ehrag0087a5_westus2",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": {
+      "aca-managed-env-id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehrag0087a5/providers/Microsoft.App/managedEnvironments/container-app-environment-b4kt3ik4bh6cm",
+      "ms.inv.v0.backedby.origin.sourcearmid.0": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehrag0087a5/providers/Microsoft.App/managedEnvironments/container-app-environment-b4kt3ik4bh6cm",
+      "ms.inv.v0.backedby.origin.tenantid": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+      "ms.inv.v0.security.owner": "ApplicationPatching"
+    },
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/mytodoappbff2",
+    "location": "westus2",
+    "managedBy": null,
+    "name": "mytodoappbff2",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": {},
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ME_container-app-environment-perwmvr74pbfu_mytodoappbff2_westus2",
+    "location": "westus2",
+    "managedBy": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourcegroups/mytodoappbff2/providers/microsoft.app/managedenvironments/container-app-environment-perwmvr74pbfu",
+    "name": "ME_container-app-environment-perwmvr74pbfu_mytodoappbff2_westus2",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": {
+      "aca-managed-env-id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/mytodoappbff2/providers/Microsoft.App/managedEnvironments/container-app-environment-perwmvr74pbfu",
+      "ms.inv.v0.backedby.origin.sourcearmid.0": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/mytodoappbff2/providers/Microsoft.App/managedEnvironments/container-app-environment-perwmvr74pbfu",
+      "ms.inv.v0.backedby.origin.tenantid": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+      "ms.inv.v0.security.owner": "ApplicationPatching"
+    },
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/chatbotreactnodejsa35b",
+    "location": "westus2",
+    "managedBy": null,
+    "name": "chatbotreactnodejsa35b",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": {},
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ME_managementenvironment--chatbotreac-9aa1_chatbotreactnodejsa35b_westus2",
+    "location": "westus2",
+    "managedBy": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourcegroups/chatbotreactnodejsa35b/providers/microsoft.app/managedenvironments/managementenvironment--chatbotreac-9aa1",
+    "name": "ME_managementenvironment--chatbotreac-9aa1_chatbotreactnodejsa35b_westus2",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": {
+      "aca-managed-env-id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/chatbotreactnodejsa35b/providers/Microsoft.App/managedEnvironments/managementenvironment--chatbotreac-9aa1",
+      "ms.inv.v0.backedby.origin.sourcearmid.0": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/chatbotreactnodejsa35b/providers/Microsoft.App/managedEnvironments/managementenvironment--chatbotreac-9aa1",
+      "ms.inv.v0.backedby.origin.tenantid": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+      "ms.inv.v0.security.owner": "ApplicationPatching"
+    },
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehchatbot00",
+    "location": "westus2",
+    "managedBy": null,
+    "name": "ehchatbot00",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ME_container-app-environment-s3ldtm3axwd4a_ehchatbot00_westus2",
+    "location": "westus2",
+    "managedBy": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourcegroups/ehchatbot00/providers/microsoft.app/managedenvironments/container-app-environment-s3ldtm3axwd4a",
+    "name": "ME_container-app-environment-s3ldtm3axwd4a_ehchatbot00_westus2",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": {
+      "aca-managed-env-id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehchatbot00/providers/Microsoft.App/managedEnvironments/container-app-environment-s3ldtm3axwd4a",
+      "ms.inv.v0.backedby.origin.sourcearmid.0": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehchatbot00/providers/Microsoft.App/managedEnvironments/container-app-environment-s3ldtm3axwd4a",
+      "ms.inv.v0.backedby.origin.tenantid": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+      "ms.inv.v0.security.owner": "ApplicationPatching"
+    },
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehchatbot01",
+    "location": "westus2",
+    "managedBy": null,
+    "name": "ehchatbot01",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ME_container-app-environment-5tjgq65nctvjs_ehchatbot01_westus2",
+    "location": "westus2",
+    "managedBy": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourcegroups/ehchatbot01/providers/microsoft.app/managedenvironments/container-app-environment-5tjgq65nctvjs",
+    "name": "ME_container-app-environment-5tjgq65nctvjs_ehchatbot01_westus2",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": {
+      "aca-managed-env-id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehchatbot01/providers/Microsoft.App/managedEnvironments/container-app-environment-5tjgq65nctvjs",
+      "ms.inv.v0.backedby.origin.sourcearmid.0": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehchatbot01/providers/Microsoft.App/managedEnvironments/container-app-environment-5tjgq65nctvjs",
+      "ms.inv.v0.backedby.origin.tenantid": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+      "ms.inv.v0.security.owner": "ApplicationPatching"
+    },
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehchatbottemplateb902",
+    "location": "westus2",
+    "managedBy": null,
+    "name": "ehchatbottemplateb902",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": {},
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ME_container-app-environment-nwldftluiyd5g_ehchatbottemplateb902_westus2",
+    "location": "westus2",
+    "managedBy": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourcegroups/ehchatbottemplateb902/providers/microsoft.app/managedenvironments/container-app-environment-nwldftluiyd5g",
+    "name": "ME_container-app-environment-nwldftluiyd5g_ehchatbottemplateb902_westus2",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": {
+      "aca-managed-env-id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehchatbottemplateb902/providers/Microsoft.App/managedEnvironments/container-app-environment-nwldftluiyd5g",
+      "ms.inv.v0.backedby.origin.sourcearmid.0": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehchatbottemplateb902/providers/Microsoft.App/managedEnvironments/container-app-environment-nwldftluiyd5g",
+      "ms.inv.v0.backedby.origin.tenantid": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+      "ms.inv.v0.security.owner": "ApplicationPatching"
+    },
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/shopathomeb322",
+    "location": "westus2",
+    "managedBy": null,
+    "name": "shopathomeb322",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": {},
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ME_managementenvironment--shopathomeb-9a85_shopathomeb322_westus2",
+    "location": "westus2",
+    "managedBy": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourcegroups/shopathomeb322/providers/microsoft.app/managedenvironments/managementenvironment--shopathomeb-9a85",
+    "name": "ME_managementenvironment--shopathomeb-9a85_shopathomeb322_westus2",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": {
+      "aca-managed-env-id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/shopathomeb322/providers/Microsoft.App/managedEnvironments/managementenvironment--shopathomeb-9a85",
+      "ms.inv.v0.backedby.origin.sourcearmid.0": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/shopathomeb322/providers/Microsoft.App/managedEnvironments/managementenvironment--shopathomeb-9a85",
+      "ms.inv.v0.backedby.origin.tenantid": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+      "ms.inv.v0.security.owner": "ApplicationPatching"
+    },
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehnode-version_group",
+    "location": "eastus",
+    "managedBy": null,
+    "name": "ehnode-version_group",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/cleanupservice",
+    "location": "westus",
+    "managedBy": null,
+    "name": "cleanupservice",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": {
+      "What Is Cleanup Service": "https://aka.ms/WhatIsCleanupService"
+    },
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/ehfa07",
+    "location": "centralus",
+    "managedBy": null,
+    "name": "ehfa07",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  },
+  {
+    "id": "/subscriptions/cf3c16db-6165-4a85-ab3a-32a65ab66d6f/resourceGroups/cloud-shell-storage-westus",
+    "location": "westus",
+    "managedBy": null,
+    "name": "cloud-shell-storage-westus",
+    "properties": {
+      "provisioningState": "Succeeded"
+    },
+    "tags": null,
+    "type": "Microsoft.Resources/resourceGroups"
+  }
+]
