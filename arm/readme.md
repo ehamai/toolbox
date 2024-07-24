@@ -1,5 +1,10 @@
 # ARM Tools
 
+## Getting started
+Before running anything, make sure to initialize the project from the "arm" folder.
+
+<pre>npm install</pre>
+
 ## Authenticating
 Before you can run any scripts which call ARM, you need to first login and set your token for your environment.  Run the following from the "arm" folder on your local terminal:
 
